@@ -1,0 +1,11 @@
+trustme (0.5.0-1) unstable; urgency=medium
+
+  * Release 0.5.0
+
+ -- Matthias Urlichs <matthias@urlichs.de>  Sat, 06 Apr 2019 15:47:11 +0200
+
+trustme (0.4.0+dev-1) smurf; urgency=low
+
+  * source package automatically created by stdeb 0.8.5
+
+ -- Matthias Urlichs <matthias@urlichs.de>  Mon, 05 Nov 2018 12:50:15 +0100

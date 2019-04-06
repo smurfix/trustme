@@ -1,0 +1,33 @@
+Source: trustme
+Maintainer: Matthias Urlichs <matthias@urlichs.de>
+Section: python
+Priority: optional
+Build-Depends: dh-python, python3-setuptools, python3-all, debhelper (>= 9)
+Standards-Version: 3.9.6
+Homepage: https://github.com/python-trio/trustme
+
+Package: python3-trustme
+Architecture: all
+Depends: ${misc:Depends}, ${python3:Depends}
+Description: #1 quality TLS certs while you wait, for the discerning test
+ .. note that this README gets 'include'ed into the main documentation
+ .
+ ==============================================
+  trustme: #1 quality TLS certs while you wait
+ ==============================================
+ .
+ .. image:: https://vignette2.wikia.nocookie.net/jadensadventures/images/1/1e/Kaa%27s_hypnotic_eyes.jpg/revision/latest?cb=20140310173415
+    :width: 200px
+    :align: right
+ .
+ You wrote a cool network client or server. It encrypts connections
+ using `TLS
+ <https://en.wikipedia.org/wiki/Transport_Layer_Security>`__. Your test
+ suite needs to make TLS connections to itself.
+ .
+ Uh oh. Your test suite *probably* doesn't have a valid TLS
+ certificate. Now what?
+ .
+ ``trustme`` is a tiny Python package that does one thing: it gives you
+ a `fake <https://martinfowler.com/bliki/TestDouble.html>`__
+
