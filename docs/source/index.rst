@@ -50,6 +50,24 @@ Change history
 
 .. towncrier release notes start
 
+Trustme 0.5.2 (2019-06-03)
+--------------------------
+
+Bugfixes
+~~~~~~~~
+
+- Update to avoid a deprecation warning on cryptography 2.7. (`#47 <https://github.com/python-trio/trustme/issues/47>`__)
+
+
+Trustme 0.5.1 (2019-04-15)
+--------------------------
+
+Bugfixes
+~~~~~~~~
+
+- Update key size to 2048 bits, as required by recent Debian. (`#45 <https://github.com/python-trio/trustme/issues/45>`__)
+
+
 Trustme 0.5.0 (2019-01-21)
 --------------------------
 
